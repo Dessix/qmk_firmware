@@ -35,6 +35,8 @@ RGBLIGHT_ENABLE = yes
 RGB_MATRIX_ENABLE = no # enable later
 DEBOUNCE_TYPE = eager_pr
 
+LINK_TIME_OPTIMIZATION_ENABLE = yes
+
 # project specific files
 SRC += matrix.c \
 	   led_i2c.c
