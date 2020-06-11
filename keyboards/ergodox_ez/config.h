@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_MAX_SPEED      7
 #define MOUSEKEY_WHEEL_DELAY 0
 
-#define DEBOUNCE 30
+#define DEBOUNCE 5
 
 #define TAPPING_TOGGLE  1
 
