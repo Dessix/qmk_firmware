@@ -69,7 +69,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef LED_BRIGHTNESS_HI
 #define LED_BRIGHTNESS_HI       255
 #endif
-#define LED_BRIGHTNESS_DEFAULT (LED_BRIGHTNESS_HI)
+#define LED_BRIGHTNESS_DEFAULT (LED_BRIGHTNESS_LO)
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D7
@@ -88,7 +88,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* fix space cadet rollover issue */
 #define DISABLE_SPACE_CADET_ROLLOVER
 
-#define RGBW
+//#define RGBW
 
 #define RGBLIGHT_SLEEP
 

@@ -17,8 +17,8 @@
 
 #define PERMISSIVE_HOLD
 
-#define RGBLIGHT_COLOR_LAYER_0 0x00, 0x00, 0x00
-#define RGBLIGHT_COLOR_LAYER_1 0x00, 0x00, 0x66
+// #define RGBLIGHT_COLOR_LAYER_0 0x00, 0x00, 0x00
+// #define RGBLIGHT_COLOR_LAYER_1 0x00, 0x00, 0x66
 
 static bool mouse_lock = false;
 
@@ -437,7 +437,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       return false;
     case RGB_SLD:
       if (record->event.pressed) {
-        rgblight_mode(1);
+        //rgblight_mode(1);
       }
       return false;
   }
