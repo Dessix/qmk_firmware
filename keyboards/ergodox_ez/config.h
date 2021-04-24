@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_WHEEL_DELAY 0
 
 #define FORCE_NKRO
-#define DEBOUNCE 15
+#define DEBOUNCE 20
 
 #define TAPPING_TOGGLE  1
 
